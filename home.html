@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>CS LaunchPad</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h2>CS LaunchPad</h2>
+        </div>
+
+          <!-- navbar for tablet and desktop view-->
+        <nav class="desktopnav hideOnMobile">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">know about us</a></li>
+                <li><a href="#">sponsor us</a></li>
+                <li><a href="#">join us</a></li>
+            </ul>
+        </nav>
+
+        <!-- navbar for mobile view-->
+        <div class="nav hideOnDesktop">
+
+            <div class="toggle">
+                <img src="hamburguer.svg" id="hamburgerIcon">
+                <img src="close.svg" id="closeIcon">
+            </div>
+
+        <nav class="mobilepnav hideOnDesktop" id="navContainer">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">know about us</a></li>
+                <li><a href="#">sponsor us</a></li>
+                <li><a href="#">join us</a></li>
+            </ul>
+        </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="one">
+
+            <!-- image for mobile view-->
+            <div class="images hideOnDesktop">
+                <img src="girl.png" class="hideOnDesktop">
+                </div>
+
+            <!-- content for desktop view-->
+            <article>
+                <h2>Learn the Fundamentals of <br>
+                ICT from the Comfort of your <br>
+                    Home.
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, magni minima. <br>
+                     Harum distinctio aliquam cupiditate error magnam eveniet, <br>
+                      ea eligendi laboriosam nesciunt sapiente mollitia quo tenetur reprehenderit.
+                </p>
+                <div><a href="#">start a career</a></div>
+            </article>
+
+            <!-- image for desktop view-->
+            <div class="image hideOnMobile">
+            <img src="girl.png" class="hideOnMobile">
+            </div>
+
+        </section>  
+        
+        <section class="two">
+
+            <div class="first">
+                <h3>Our numbers tell <br> more about us</h3>
+            </div>
+
+            <div class="second">
+                <h1>5+ States</h1>
+                <p>Location of our <br> Learners</p>
+            </div>
+
+            <div class="second">
+                <h1>7+ Courses</h1>
+                <p>Varieties of Courses <br> Available</p>
+            </div>
+
+            <div class="second">
+                <h1>200+</h1>
+                <p>New Students in Less Than 10 <br> Days</p>
+            </div>
+
+        </section>
+
+        <section class="three">
+            <div class="value">
+                We add value to <br> our student's <br> journey.
+            </div>
+            <div class="more"><a href="#">Learn more</a></div>
+        </section>
+
+    </main>
+
+    <script>
+
+        let hamburger = document.getElementById("hamburgerIcon");
+        let closeNav = document.getElementById("closeIcon");
+        let navbar = document.getElementById("navContainer");
+
+        navbar.style.display = "none";
+        closeNav.style.display = "none";
+
+        hamburger.addEventListener("click", showNavbar);
+        closeNav.addEventListener("click", hideNavbar);
+
+        //function to display the navbar
+        function showNavbar() {
+            hamburger.style.display = "none";
+            navbar.style.display = "block";
+            closeNav.style.display = "block";
+        }
+
+        //function to hide the navbar
+        function hideNavbar() {
+            hamburger.style.display = "block";
+            navbar.style.display = "none";
+            closeNav.style.display = "none";
+        }
+
+    </script>
+    
+</body>
+</html>
