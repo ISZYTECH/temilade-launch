@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    padding-left: 72px;
+    top: 42px;
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+#nav-brand .logo h3{
+    width: 257px;
+    height: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #EC750B;
+}
+#nav-brand{
+    cursor: pointer;
+}
+#menu{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+.menu-item{
+    cursor: pointer;
+}
+.menu-item a{
+    text-decoration: none;
+    margin-right: 73px;
+    font-size: 12px;
+    width: 36px;
+    height: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+
+.message-head{
+    position: relative;
+    top: 132px;
+    text-align: left;
+    height: 44px;
+    margin-top: 140px;
+    margin-left: 72px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+}
+.message-head .illustration p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.message-head .illustration svg{
+    width: 603px;
+    height: 318px;
+    margin-left: 118px;
+}
+
+.main{
+    color: white;
+    position: relative;
+    top: 581px;
+    width: 100%;
+}
+
+.video-section{
+    background: #060894;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    text-align: center;
+    padding-top: 105.8px;
+    padding-bottom: 105.8px;
+}
+
+.video-section h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+.video-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.video-section .videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-section .videos .video{
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.video-section .video a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer{
+    width: 100%;
+    height: 334px;
+    padding: 71px;
+    background: #535353;
+}
+
+.footer h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #EC750B;
+}
+
+.footer p{
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
