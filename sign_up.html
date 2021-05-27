@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./stylesheet/main.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3963745ccd.js" crossorigin="anonymous"></script>
     <!-- css -->
 </head>
+
 <body style="background: #ffffff;">
-     <header>
+    <header>
         <nav>
             <div class="container sign_up_container">
                 <div id="branding">
-                     <h2 class="logo">CS Launchpad</h2>
+                    <h2 class="logo">CS Launchpad</h2>
                 </div>
             </div>
         </nav>
-     </header>   
+    </header>
 
-     <section>
-         <div class="container">
-             <div class="sign_up_header">
+    <section>
+        <div class="container">
+            <div class="sign_up_header">
                 <img src="images/sign-up.png" alt="">
-                 
-                     <h5>Welcome to <span>CS Launchpad</span></h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, praesentium tempore ex adipisci blanditiis inventore beatae quae quis voluptatem rem?</p>
-             </div>
 
-             <div>
-                 
+                <h5>Welcome to <span>CS Launchpad</span></h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, praesentium tempore ex adipisci blanditiis inventore beatae quae quis voluptatem rem?</p>
+            </div>
+
+            <div>
+
                 <div class="sign_up">
                     <button><i class="fab fa-google"></i>
                         <a href="#">Google Play</a></button>
 
-                      <div class="line">
-                          <div>
+                    <div class="line">
+                        <div>
                             <hr>
-                          </div>
+                        </div>
 
-                          <div class="or"><p>Or</p></div>
-                          <div>
+                        <div class="or">
+                            <p>Or</p>
+                        </div>
+                        <div>
                             <hr>
-                          </div>
+                        </div>
 
-                      </div> 
-                    
-                    
-                    <form class="sign_up_form" action >
+                    </div>
+
+
+                    <form class="sign_up_form" action>
                         <fieldset>
                             <legend>Email</legend>
                             <input type="email" id="email" name="email" placeholder="Enter your email" required>
                         </fieldset>
 
-                         <fieldset>
+                        <fieldset>
                             <legend>Full Name</legend>
                             <input type="text" id="fname" name="fname" placeholder="First Name" required>
                         </fieldset>
 
-                         <fieldset>
+                        <fieldset>
                             <legend>Phone Number</legend>
                             <input type="tel" id="phone" name="phone" pattern="[0-10] {3} - [0-9]" placeholder="+234" required>
                         </fieldset>
@@ -68,60 +72,60 @@
                         <div class="date">
                             <div>
                                 <fieldset>
-                                <legend>Month</legend>
-                                <input type="month" id="month" placeholder="month" required>
+                                    <legend>Month</legend>
+                                    <input type="month" id="month" placeholder="month" required>
                                 </fieldset>
                             </div>
 
-                             <div>
+                            <div>
                                 <fieldset>
-                                <legend>Day</legend>
-                                <input type="number" id="start" name="start" min="01" max="31" placeholder="Day" required>
+                                    <legend>Day</legend>
+                                    <input type="number" id="start" name="start" min="01" max="31" placeholder="Day" required>
                                 </fieldset>
                             </div>
 
-                             <div>
+                            <div>
                                 <fieldset>
-                                <legend>Year</legend>
-                                <input type="number" id="start" name="start" min="1900" max="2099" step="1" placeholder="Year" 
-                                     required>
+                                    <legend>Year</legend>
+                                    <input type="number" id="start" name="start" min="1900" max="2099" step="1" placeholder="Year" required>
                                 </fieldset>
                             </div>
                         </div>
 
-                         <fieldset>
+                        <fieldset>
                             <legend>Password</legend>
                             <input type="password" id="pass" name="password" placeholder="Enter your password" required>
                         </fieldset>
 
-                         <fieldset>
+                        <fieldset>
                             <legend>Referral Code (If any)</legend>
                             <input type="text" id="pass" name="password" placeholder="Enter Referral Code">
-                        </fieldset> 
+                        </fieldset>
 
-                            <div class="checkbox_container">
-                                <div>
-                                    <input type="checkbox" id="termsofservice" name="termsofservice">
-                                </div>
-                                <div id="label">
-                                    <label for="">I agree to the <a href="#">Terms of Services</a></label> 
-                                </div>
+                        <div class="checkbox_container">
+                            <div>
+                                <input type="checkbox" id="termsofservice" name="termsofservice">
+                            </div>
+                            <div id="label">
+                                <label for="">I agree to the <a href="#">Terms of Services</a></label>
+                            </div>
 
-                            </div><br>
-                         
+                        </div><br>
+
 
                         <input type="submit" value="Sign Up">
 
                         <p>Already have an account? <a href="#">Sign in</a>
                         </p>
                     </form>
-                    
+
                 </div>
 
-                 </div>
-             </div>
-     </section>
+            </div>
+        </div>
+    </section>
 
-      <div style="height: 100px;"></div>
-     </body>
+    <div style="height: 100px;"></div>
+</body>
+
 </html>

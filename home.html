@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="./stylesheet/home.css">
     <title>CS LaunchPad</title>
 </head>
+
 <body>
 
     <header>
@@ -15,7 +17,7 @@
             <h2>CS LaunchPad</h2>
         </div>
 
-          <!-- navbar for tablet and desktop view-->
+        <!-- navbar for tablet and desktop view-->
         <nav class="desktopnav hideOnMobile">
             <ul>
                 <li><a href="#">home</a></li>
@@ -33,14 +35,14 @@
                 <img src="close.svg" id="closeIcon">
             </div>
 
-        <nav class="mobilepnav hideOnDesktop" id="navContainer">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">know about us</a></li>
-                <li><a href="#">sponsor us</a></li>
-                <li><a href="#">join us</a></li>
-            </ul>
-        </nav>
+            <nav class="mobilepnav hideOnDesktop" id="navContainer">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">know about us</a></li>
+                    <li><a href="#">sponsor us</a></li>
+                    <li><a href="#">join us</a></li>
+                </ul>
+            </nav>
 
         </div>
 
@@ -53,28 +55,24 @@
             <!-- image for mobile view-->
             <div class="images hideOnDesktop">
                 <img src="girl.png" class="hideOnDesktop">
-                </div>
+            </div>
 
             <!-- content for desktop view-->
             <article>
-                <h2>Learn the Fundamentals of <br>
-                ICT from the Comfort of your <br>
-                    Home.
+                <h2>Learn the Fundamentals of <br> ICT from the Comfort of your <br> Home.
                 </h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, magni minima. <br>
-                     Harum distinctio aliquam cupiditate error magnam eveniet, <br>
-                      ea eligendi laboriosam nesciunt sapiente mollitia quo tenetur reprehenderit.
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, magni minima. <br> Harum distinctio aliquam cupiditate error magnam eveniet, <br> ea eligendi laboriosam nesciunt sapiente mollitia quo tenetur reprehenderit.
                 </p>
                 <div><a href="#">start a career</a></div>
             </article>
 
             <!-- image for desktop view-->
             <div class="image hideOnMobile">
-            <img src="girl.png" class="hideOnMobile">
+                <img src="girl.png" class="hideOnMobile">
             </div>
 
-        </section>  
-        
+        </section>
+
         <section class="two">
 
             <div class="first">
@@ -108,7 +106,6 @@
     </main>
 
     <script>
-
         let hamburger = document.getElementById("hamburgerIcon");
         let closeNav = document.getElementById("closeIcon");
         let navbar = document.getElementById("navContainer");
@@ -132,8 +129,8 @@
             navbar.style.display = "none";
             closeNav.style.display = "none";
         }
-
     </script>
-    
+
 </body>
+
 </html>
