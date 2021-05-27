@@ -5,7 +5,7 @@
 .left-side {
     width: 868px;
     height: 1036px;
-    background: url('./image/flower.png');
+    background: url('../image/flower.png');
     background-size: cover;
 
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ select {
     appearance: none;
     --webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url('./image/down.png');
+    background-image: url('../image/down.png');
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
@@ -159,7 +159,7 @@ button {
 }
 
 .orange-icons {
-    background: url('./image/orange-icon.png');
+    background: url('../image/orange-icon.png');
     width: 30px;
     height: 30px;
     display: flex;
@@ -186,7 +186,7 @@ button {
     .left-side {
         width: 65vw;
         height: 1036px;
-        background: url('./image/flower.png');
+        background: url('../image/flower.png');
         background-size: cover;
     
         background-repeat: no-repeat;
@@ -236,6 +236,12 @@ button {
         width: 90vw;
     }
     .form {
-        width: 100%;
+        width: 90%;
     }
+   }
+
+   @media screen and (max-width: 480px){
+       .left-side {
+           height: 1440px;
+       }
    }
