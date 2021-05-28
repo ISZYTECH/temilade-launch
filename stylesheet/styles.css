@@ -15,7 +15,8 @@ body {
  flex-direction: column;
 }
 
-.csl-text {
+.csl-text a{
+    text-decoration: none;
  color: #EC750B;
  position: absolute;
  width: 192px;

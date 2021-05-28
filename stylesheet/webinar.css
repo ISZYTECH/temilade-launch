@@ -29,6 +29,10 @@ header{
     font-size: 36px;
     color: #EC750B;
 }
+#nav-brand .logo h3 a {
+    text-decoration: none;
+    color: inherit;
+}
 #nav-brand{
     cursor: pointer;
 }
