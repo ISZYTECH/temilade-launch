@@ -22,6 +22,8 @@ header{
 .logo h2 a {
     text-decoration: none;
     color: inherit;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .logo p{
@@ -39,12 +41,9 @@ article div{
   justify-content: center;
   align-items: center;
   text-align: center;  
-  width: 20%;
+  width: fit-content;
   margin-top: 2em;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 15px;
 }
 
 article div > a{
@@ -55,6 +54,7 @@ article div > a{
 main{
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
 }
 
 .first h3{
@@ -74,8 +74,31 @@ main{
     flex-direction: column;
     justify-content: center; 
     color: #fff;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 25px;
+  }
+
+  .value .button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    width: fit-content;
+    margin-top: 2em;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    left: 55%;
+  }
+
+  .value .button a{
+      font-size: 16px;
+      text-decoration: none;
+      color: rgba(236, 117, 11, 1);
+      font-weight: bold;
   }
 
   .more{
@@ -297,18 +320,23 @@ nav{
 nav ul{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 nav ul li{
     list-style-type: none;
     display: flex;
+    margin: 0 1.5em;
+    width: fit-content;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    font-weight: 700;
     text-transform: capitalize;
+    width: max-content;
 }
 
 main{
@@ -330,18 +358,17 @@ main{
 
 .three{
     width: 85%;
-    margin: auto;
-    margin-bottom: 5em;
-    margin-top: 5em;
+    margin: 2em;
 }
 
 .value{
     text-align: left;  
-    width: 50%;
+    width: 65%;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 5px;
+    font-size: 40px;
   }
 
 .image{
