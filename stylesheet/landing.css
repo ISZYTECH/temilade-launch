@@ -54,6 +54,7 @@ article div > a{
 main{
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
 }
 
 .first h3{
@@ -357,7 +358,7 @@ main{
 
 .three{
     width: 85%;
-    margin: auto 2em;
+    margin: 2em;
 }
 
 .value{
