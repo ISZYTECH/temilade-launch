@@ -116,6 +116,7 @@ nav ul li a {
     color: black;
     font-size: 16px;
     font-weight: 700;
+    width: max-content;
     text-transform: capitalize;
 }
 }
@@ -184,7 +185,7 @@ header{
 .message-head{
     text-align: left;
     height: 44px;
-    margin-left: 72px;
+    margin: auto 72px;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -199,7 +200,7 @@ header{
 .message-head .illustration svg{
     width: 603px;
     height: 318px;
-    margin-left: 118px;
+    margin-left: -2em;
 }
 
 .main{
@@ -266,4 +267,19 @@ header{
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 540px){
+    .message-head {
+        margin: 20px;
+    }
+    .message-head .illustration img {
+        width: 120%;
+        margin: auto -1em;
+        padding: 0px;
+    }
+    .main {
+      top: 30em;  
+    }
+    
 }
